@@ -1,4 +1,3 @@
-
 package com.example.webapplication;
 
 import org.junit.jupiter.api.Test;
@@ -6,8 +5,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class WebApplicationTests {
+
     @Test
     void contextLoads() {
+        // Basic test to check if the application context loads correctly
     }
 }
+
         
