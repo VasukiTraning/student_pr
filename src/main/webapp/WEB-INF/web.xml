@@ -1,0 +1,6 @@
+
+<!-- Optional web.xml file -->
+<web-app>
+    <display-name>Web Application</display-name>
+</web-app>
+        
