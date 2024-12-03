@@ -21,14 +21,14 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <version>${spring-boot.version}</version>
+            <version>3.1.4</version> <!-- Specify your Spring Boot version -->
         </dependency>
 
         <!-- Thymeleaf for UI Rendering -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
-            <version>${spring-boot.version}</version>
+            <version>3.1.4</version>
         </dependency>
 
         <!-- Servlet API -->
@@ -65,6 +65,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
+            <version>3.1.4</version> <!-- Explicit version for the test dependency -->
             <scope>test</scope>
             <exclusions>
                 <exclusion>
@@ -74,8 +75,6 @@
             </exclusions>
         </dependency>
     </dependencies>
-
-
     <build>
         <plugins>
             <!-- Spring Boot Maven Plugin -->
